@@ -102,13 +102,17 @@
         "multi"
       ],
       "visibility": "public",
-      "recordCount": 7,
+      "recordCount": 262,
       "source": {
         "repository": "knotspace/study",
         "ref": "main",
         "path": "data/knowledge-base.json"
       },
-      "status": "migrated"
+      "status": "migrated",
+      "recordBreakdown": {
+        "topicRecords": 237,
+        "authoredModules": 25
+      }
     },
     {
       "id": "famous-quotes",
