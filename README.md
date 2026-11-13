@@ -8,7 +8,7 @@ This repository stores structured learning content independently from applicatio
 - Preserve source records and stable IDs; do not silently rewrite educational content.
 - Every dataset has a manifest entry, schema version, provenance, counts, and validation status.
 - Distinguish verified public-exam sources from original practice questions and unverified source references.
-- Keep private/personal study material out of public collections. The historical `private-*` filenames are retained as legacy source names only and are classified as restricted/original practice content pending an explicit publication decision.
+- Keep private/personal study material out of public collections. The historical `private-*` datasets are editorially classified as restricted/original practice content pending an explicit publication decision. **Important:** this repository is public, so every committed file (including those datasets) is currently readable from GitHub and raw file URLs. Registry `visibility` metadata and filename prefixes are not access controls. Do not treat these files as private; a publication decision and coordinated migration are required before they can be considered restricted in practice.
 - Never put personal school targets or other private profile details in public metadata.
 
 ## Layout
