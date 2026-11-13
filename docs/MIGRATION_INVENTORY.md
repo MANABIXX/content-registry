@@ -20,4 +20,4 @@ Snapshot source: `knotspace/study@main`, captured 2026-11-13. All structured dat
 | supplementary Japanese questions | 12 | migrated |
 | SVG learning assets | 2 | migrated |
 
-Total question records across the question banks: 2,614. Visual resources and knowledge-base records are counted separately. Source records remain unchanged; use a new normalized dataset version for future editorial changes.
+Total question records across the question banks: 2,429. Visual resources and knowledge-base records are counted separately. Source records remain unchanged; use a new normalized dataset version for future editorial changes.
