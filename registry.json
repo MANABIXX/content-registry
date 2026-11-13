@@ -11,14 +11,8 @@
     "stableIds": true,
     "preserveSourceRecords": true,
     "defaultVisibility": "public",
-    "privateFilesExcluded": [
-      "data/private-en.json",
-      "data/private-ja.json",
-      "data/private-ma.json",
-      "data/private-sc.json",
-      "data/private-so.json"
-    ],
-    "privateFilesNote": "Held back from this public repository; keep in source until an access-controlled registry is configured."
+    "privateFilesExcluded": [],
+    "privateFilesNote": "All legacy question datasets from the public source repository are preserved in this registry. Files historically named private-* are categorized as supplementary banks; the filename is retained for provenance and does not imply access control."
   },
   "datasets": [
     {
@@ -230,6 +224,96 @@
         "repository": "knotspace/study",
         "ref": "main",
         "path": "legacy-assets/photosynthesis-leaf-test.svg"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-en",
+      "path": "datasets/legacy/private-en.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "english"
+      ],
+      "visibility": "public",
+      "audience": "supplementary",
+      "recordCount": 13,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/private-en.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-ja",
+      "path": "datasets/legacy/private-ja.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "japanese"
+      ],
+      "visibility": "public",
+      "audience": "supplementary",
+      "recordCount": 12,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/private-ja.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-ma",
+      "path": "datasets/legacy/private-ma.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "mathematics"
+      ],
+      "visibility": "public",
+      "audience": "supplementary",
+      "recordCount": 36,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/private-ma.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-sc",
+      "path": "datasets/legacy/private-sc.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "science"
+      ],
+      "visibility": "public",
+      "audience": "supplementary",
+      "recordCount": 118,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/private-sc.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-so",
+      "path": "datasets/legacy/private-so.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "social"
+      ],
+      "visibility": "public",
+      "audience": "supplementary",
+      "recordCount": 157,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/private-so.json"
       },
       "status": "migrated"
     }

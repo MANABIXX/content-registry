@@ -1,18 +1,23 @@
 # Migration inventory
 
-Snapshot: `knotspace/study@main`, 2026-11-13.
+Snapshot source: `knotspace/study@main`, captured 2026-11-13. All structured datasets and SVG learning assets in the source data collection have been preserved in this registry. Legacy `private-*` filenames are retained for provenance; their content consists of supplemental practice question banks.
 
 | Dataset | Records | State |
 |---|---:|---|
-| questions | 1,180 | source-preserved; validation pending |
-| public-exam | 323 | source-preserved; source verification remains per record |
-| summary-foundation | 450 | source-preserved |
-| summary-assets | 133 | source-preserved |
-| knowledge-base | 7 top-level topic records plus authored modules | source-preserved |
-| famous-quotes | 200 | source-preserved |
-| motivation-200 | 200 prompts | source-preserved |
-| s-exclusive | 25 | source-preserved |
-| s-exclusive-beta | 15 | source-preserved |
-| mock-exams | 100 | source-preserved |
+| question bank | 1,180 | migrated |
+| public exam questions | 323 | migrated; individual official-source references still require verification |
+| foundation questions | 450 | migrated |
+| visual learning resources | 133 | migrated |
+| knowledge base | 262 (237 topic records + 25 authored modules) | migrated |
+| famous quotes | 200 | migrated |
+| motivation prompts | 200 | migrated |
+| mock exams | 100 | migrated |
+| supplementary language questions | 25 | migrated |
+| supplementary math questions | 36 | migrated |
+| supplementary science questions | 118 | migrated |
+| supplementary social questions | 157 | migrated |
+| supplementary English questions | 13 | migrated |
+| supplementary Japanese questions | 12 | migrated |
+| SVG learning assets | 2 | migrated |
 
-The legacy `private-*.json` datasets are deliberately held back from this public registry until an access-controlled destination is configured. They have not been deleted from the source repository.
+Total question records across the question banks: 2,614. Visual resources and knowledge-base records are counted separately. Source records remain unchanged; use a new normalized dataset version for future editorial changes.
