@@ -11,7 +11,7 @@ for(const ds of registry.datasets){
  if(!fs.existsSync(file)){errors.push('missing dataset: '+ds.path);continue;}
  if(ds.format!=='json')continue;
  let data;try{data=JSON.parse(fs.readFileSync(file,'utf8'));}catch(e){errors.push('invalid JSON '+ds.path+': '+e.message);continue;}
- let rows=Array.isArray(data)?data:(data.questions||data.resources||data.topicRecords||[]);
+ let rows=Array.isArray(data)?data:(data.questions||data.resources||data.topicRecords||data.quotes||[]);
  if(ds.id==='knowledge-base')rows=[...(data.topicRecords||[]),...(data.authoredModules||[])];
  if(ds.id==='motivation-200')rows=(data.groups||[]).flatMap(g=>Array.isArray(g[2])?g[2]:[]);
  const seen=new Set();
