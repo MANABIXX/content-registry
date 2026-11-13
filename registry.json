@@ -1,0 +1,241 @@
+{
+  "registryVersion": "1.0.0",
+  "name": "MANABIXX Content Registry",
+  "updatedAt": "2026-11-13",
+  "sourceSnapshot": {
+    "repository": "knotspace/study",
+    "ref": "main",
+    "capturedAt": "2026-11-13"
+  },
+  "policy": {
+    "stableIds": true,
+    "preserveSourceRecords": true,
+    "defaultVisibility": "public",
+    "privateFilesExcluded": [
+      "data/private-en.json",
+      "data/private-ja.json",
+      "data/private-ma.json",
+      "data/private-sc.json",
+      "data/private-so.json"
+    ],
+    "privateFilesNote": "Held back from this public repository; keep in source until an access-controlled registry is configured."
+  },
+  "datasets": [
+    {
+      "id": "question-bank",
+      "path": "datasets/legacy/questions.json",
+      "format": "json",
+      "kind": "question-bank",
+      "subjects": [
+        "science",
+        "social"
+      ],
+      "visibility": "public",
+      "recordCount": 1180,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "questions.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "public-exam",
+      "path": "datasets/legacy/public-exam.json",
+      "format": "json",
+      "kind": "exam-bank",
+      "subjects": [
+        "science",
+        "social"
+      ],
+      "visibility": "public",
+      "recordCount": 323,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/public-exam.json"
+      },
+      "status": "migrated-source-verification-pending"
+    },
+    {
+      "id": "summary-foundation",
+      "path": "datasets/legacy/summary-foundation.json",
+      "format": "json",
+      "kind": "foundation-bank",
+      "subjects": [
+        "science",
+        "social"
+      ],
+      "visibility": "public",
+      "recordCount": 450,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/summary-foundation.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "summary-assets",
+      "path": "datasets/legacy/summary-assets.json",
+      "format": "json",
+      "kind": "visual-resource-bank",
+      "subjects": [
+        "science",
+        "social"
+      ],
+      "visibility": "public",
+      "recordCount": 133,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/summary-assets.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "knowledge-base",
+      "path": "datasets/legacy/knowledge-base.json",
+      "format": "json",
+      "kind": "knowledge-base",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 7,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/knowledge-base.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "famous-quotes",
+      "path": "datasets/legacy/famous-quotes.json",
+      "format": "json",
+      "kind": "motivation-quotes",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 200,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/famous-quotes.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "motivation-200",
+      "path": "datasets/legacy/motivation-200.json",
+      "format": "json",
+      "kind": "motivation-prompts",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 200,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/motivation-200.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary",
+      "path": "datasets/legacy/s-exclusive.json",
+      "format": "json",
+      "kind": "supplementary-question-bank",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 25,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/s-exclusive.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "supplementary-beta",
+      "path": "datasets/legacy/s-exclusive-beta.json",
+      "format": "json",
+      "kind": "supplementary-question-bank-beta",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 15,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "data/s-exclusive-beta.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "mock-exams",
+      "path": "datasets/legacy/mock-exams.json",
+      "format": "json",
+      "kind": "mock-exam-bank",
+      "subjects": [
+        "multi"
+      ],
+      "visibility": "public",
+      "recordCount": 100,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "shitadumi/mock-exams.json"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "earthquake-wave-arrival",
+      "path": "assets/legacy/earthquake-wave-arrival.svg",
+      "format": "svg",
+      "kind": "visual-asset",
+      "subjects": [
+        "science"
+      ],
+      "visibility": "public",
+      "recordCount": null,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "legacy-assets/earthquake-wave-arrival.svg"
+      },
+      "status": "migrated"
+    },
+    {
+      "id": "photosynthesis-leaf-test",
+      "path": "assets/legacy/photosynthesis-leaf-test.svg",
+      "format": "svg",
+      "kind": "visual-asset",
+      "subjects": [
+        "science"
+      ],
+      "visibility": "public",
+      "recordCount": null,
+      "source": {
+        "repository": "knotspace/study",
+        "ref": "main",
+        "path": "legacy-assets/photosynthesis-leaf-test.svg"
+      },
+      "status": "migrated"
+    }
+  ],
+  "consumers": [
+    {
+      "id": "study",
+      "repository": "MANABIXX/MANABIXX.github.io",
+      "branch": "sveltekit-migration",
+      "integration": "build-time sync pinned to registry commit SHA"
+    }
+  ]
+}

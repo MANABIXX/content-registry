@@ -1,0 +1,9 @@
+{
+  "name": "@manabixx/content-registry",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
+}

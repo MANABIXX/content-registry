@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Visual Learning Resource",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "type",
+    "title"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "diagram",
+        "photo",
+        "table",
+        "chart",
+        "illustration",
+        "timeline",
+        "map",
+        "flow"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "note": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "priority": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

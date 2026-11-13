@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Question Collection",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "question.schema.json"
+      }
+    }
+  },
+  "required": [
+    "questions"
+  ],
+  "additionalProperties": true
+}
