@@ -1,7 +1,7 @@
 {
   "registryVersion": "1.0.0",
   "name": "MANABIXX Content Registry",
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "sourceSnapshot": {
     "repository": "knotspace/study",
     "ref": "main",
